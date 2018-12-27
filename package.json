@@ -1,0 +1,30 @@
+{
+  "name": "cssgip",
+  "version": "1.0.2",
+  "description": "Gradient Image Placeholders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stoyan/cssgip"
+  },
+  "bin": {
+    "gip": "./bin/cli.js"
+  },
+  "keywords": [
+    "css",
+    "gradients",
+    "image",
+    "placeholder",
+    "performance"
+  ],
+  "author": "Stoyan Stefanov",
+  "license": "MIT",
+  "dependencies": {
+    "image-palette": "^2.1.0",
+    "image-pixels": "^2.2.0",
+    "image-size": "^0.6.3"
+  }
+}
