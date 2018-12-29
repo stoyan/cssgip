@@ -23,14 +23,14 @@ gip test.png
 
 ## Usage
 
-```
+```js
 const gip = require('cssgip');
 const result = await gip('./image.jpg');
 ```
 
 The `result` is an object with three properties like:
 
-```
+```js
 css: "background: #ab9f92; background: linear-gradient(135deg, #cbc6c2 0%, #5d5347 100%)"
 background: "#ab9f92"
 gradient: "linear-gradient(135deg, #cbc6c2 0%, #5d5347 100%)"

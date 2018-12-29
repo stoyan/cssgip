@@ -1,6 +1,6 @@
 {
   "name": "cssgip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gradient Image Placeholders",
   "main": "index.js",
   "scripts": {
